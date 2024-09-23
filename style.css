@@ -15,5 +15,11 @@ body {
 	list-style: none;
 }
 .carousel-container {
+	position: relative;
 	height: 800px;
+}
+.carousel-container .list {
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
