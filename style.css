@@ -1,0 +1,17 @@
+/* Reseting the global styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", system-ui;
+	font-weight: 500;
+	font-style: normal;
+}
+.menu-list-container a {
+	text-decoration: none;
+}
+.menu-list-container a li {
+	list-style: none;
+}
