@@ -8,10 +8,12 @@ body {
 	font-family: "Poppins", system-ui;
 	font-style: normal;
 }
-
 .menu-list-container a {
 	text-decoration: none;
 }
 .menu-list-container a li {
 	list-style: none;
+}
+.carousel-container {
+	height: 800px;
 }
