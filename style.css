@@ -6,9 +6,9 @@
 }
 body {
 	font-family: "Poppins", system-ui;
-	font-weight: 500;
 	font-style: normal;
 }
+
 .menu-list-container a {
 	text-decoration: none;
 }
