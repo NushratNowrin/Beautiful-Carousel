@@ -35,6 +35,7 @@ body {
 	height: 100%;
 	font-size: 15px;
 }
+/* Carousel Img */
 .carousel-container .list .item .slider-img img {
 	width: 50%;
 	position: absolute;
