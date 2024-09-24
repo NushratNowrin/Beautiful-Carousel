@@ -35,3 +35,10 @@ body {
 	height: 100%;
 	font-size: 15px;
 }
+.carousel-container .list .item .slider-img img {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
