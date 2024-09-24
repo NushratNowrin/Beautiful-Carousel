@@ -27,6 +27,7 @@ body {
 	height: 80%;
 	transform: translateX(-50%);
 }
+/* Carousel Item */
 .carousel-container .list .item {
 	position: absolute;
 	left: 0;
