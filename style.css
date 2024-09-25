@@ -65,3 +65,10 @@ body {
 	opacity: 0;
 	pointer-events: none;
 }
+/* Active Item */
+.carousel-container .list .item:nth-child(2) {
+	transform: translate(0, 0);
+	filter: blur(0);
+	z-index: 10;
+	opacity: 1;
+}
