@@ -134,3 +134,10 @@ body {
 	opacity: var(--item5-opacity);
 	pointer-events: none;
 }
+.arrows {
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1140px;
+	max-width: 90%;
+}
