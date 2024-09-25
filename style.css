@@ -80,3 +80,10 @@ body {
 	opacity: 0;
 	pointer-events: none;
 }
+/* Item 3 */
+.carousel-container .list .item:nth-child(3) {
+	transform: translate(50%, 10%) scale(0.8);
+	filter: blur(10px);
+	z-index: 9;
+	opacity: 1;
+}
