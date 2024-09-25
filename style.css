@@ -141,3 +141,21 @@ body {
 	width: 1140px;
 	max-width: 90%;
 }
+.arrows #prev,
+.arrows #next {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-family: monospace;
+	font-size: large;
+	font-weight: bold;
+	border: 1px solid #555;
+	background: #fff;
+}
+.arrows #prev:hover,
+.arrows #next:hover {
+	font-size: large;
+	border: 2px solid #555;
+	background: #d4d4f8;
+	transition: background 0.3s ease-in-out;
+}
