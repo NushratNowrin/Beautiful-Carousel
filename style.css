@@ -88,6 +88,34 @@ body {
 	opacity: 0;
 	pointer-events: none;
 }
+.carousel-container .list .item .intro .topic {
+	font-size: 1.5em;
+}
+.carousel-container .list .item .intro .title {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.carousel-container .list .item .intro .short-description {
+	font-size: small;
+}
+.carousel-container .list .item .intro .see-more-btn {
+	margin-top: 5px;
+}
+.carousel-container .list .item .intro .see-more-btn button {
+	font-size: small;
+	font-weight: bold;
+	background-color: transparent;
+	font-family: "Poppins";
+	border: none;
+	border-bottom: 1px solid #555;
+	padding: 5px 0;
+	cursor: pointer;
+	transition: letter-spacing 0.3s ease-in-out;
+}
+.carousel-container .list .item .intro .see-more-btn button:hover {
+	letter-spacing: 1px;
+}
 .carousel-container .list .item:nth-child(2) .intro {
 	opacity: 1;
 	pointer-events: auto;
@@ -165,6 +193,9 @@ body {
 	letter-spacing: 3px;
 	padding: 0 5px;
 	transition: letter-spacing 0.5s ease-in-out, background-color 0.5s ease-in-out;
+	/* primarily hidden */
+	opacity: 0;
+	pointer-events: none;
 }
 .arrows #back:hover {
 	background-color: #d4d4f8;
