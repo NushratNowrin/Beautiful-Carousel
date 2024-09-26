@@ -132,10 +132,12 @@ body {
 	z-index: var(--item2-z-index);
 	opacity: var(--item2-opacity);
 }
-.carousel-container .list .item:nth-child(2) .intro,
-.carousel-container .list .item:nth-child(2) .details {
+.carousel-container .list .item:nth-child(2) .intro .title,
+.carousel-container .list .item:nth-child(2) .intro .topic,
+.carousel-container .list .item:nth-child(2) .intro .short-description,
+.carousel-container .list .item:nth-child(2) .intro .see-more-btn {
 	opacity: 0;
-	transition: showContent 0.5s 0.7s ease-in-out forward;
+	animation: showContent 0.5s 0.7s ease-in-out 1 forwards;
 }
 @keyframes showContent {
 	from {
@@ -148,9 +150,16 @@ body {
 		opacity: 1;
 	}
 }
-.item:nth-child(2) .intro .topic {
+.carousel-container .list .item:nth-child(2) .intro .title {
 	animation-delay: 0.9s;
 }
+.carousel-container .list .item:nth-child(2) .intro .short-description {
+	animation-delay: 1.1s;
+}
+.carousel-container .list .item:nth-child(2) .intro .see-more-btn {
+	animation-delay: 1.3s;
+}
+
 /* Item 1 */
 .carousel-container .list .item:nth-child(1) {
 	transform: var(--item1-transform);
