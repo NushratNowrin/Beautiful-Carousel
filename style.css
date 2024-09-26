@@ -132,6 +132,25 @@ body {
 	z-index: var(--item2-z-index);
 	opacity: var(--item2-opacity);
 }
+.carousel-container .list .item:nth-child(2) .intro,
+.carousel-container .list .item:nth-child(2) .details {
+	opacity: 0;
+	transition: showContent 0.5s 0.7s ease-in-out forward;
+}
+@keyframes showContent {
+	from {
+		transform: translateY(50px);
+		filter: blur(30px);
+	}
+	to {
+		transform: translateY(0);
+		filter: blur(0);
+		opacity: 1;
+	}
+}
+.item:nth-child(2) .intro .topic {
+	animation-delay: 0.9s;
+}
 /* Item 1 */
 .carousel-container .list .item:nth-child(1) {
 	transform: var(--item1-transform);
