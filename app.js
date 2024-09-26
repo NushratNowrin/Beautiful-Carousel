@@ -8,3 +8,6 @@ let listHTML = document.querySelector(".carousel .list");
 nextButton.onclick = function () {
 	showSlider("next");
 };
+prevButton.onclick = function () {
+	showSlider("prev");
+};
