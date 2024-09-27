@@ -6,6 +6,7 @@ let carousel = document.querySelector(".carousel-container");
 // inner HTML
 let listHTML = document.querySelector(".carousel-container .list");
 
+// next btng
 nextButton.onclick = function () {
 	showSlider("next");
 };
