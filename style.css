@@ -150,6 +150,7 @@ body {
 		opacity: 1;
 	}
 }
+/* title */
 .carousel-container .list .item:nth-child(2) .intro .title {
 	animation-delay: 0.9s;
 }
