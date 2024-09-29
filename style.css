@@ -52,7 +52,7 @@ body {
 }
 .carousel-container .list {
 	position: absolute;
-	top: 0;
+	top: 10;
 	left: 50%;
 	width: 1140px;
 	max-width: 90%;
@@ -70,10 +70,10 @@ body {
 }
 /* Carousel Img */
 .carousel-container .list .item .slider-img img {
-	width: 50%;
+	width: 40%;
 	position: absolute;
 	right: 0;
-	top: 50%;
+	top: 70%;
 	transform: translateY(-50%);
 }
 .carousel-container .list .item .details {
