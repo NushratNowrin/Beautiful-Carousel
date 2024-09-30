@@ -14,6 +14,7 @@ prevButton.onclick = function () {
 	showSlider("prev");
 };
 const showSlider = (type) => {
+	carousel.classList.remove("prev", "next");
 	let items = document.querySelectorAll(".carousel-container .list .item");
 	if (type === "next") {
 		listHTML.appendChild(items[0]);
