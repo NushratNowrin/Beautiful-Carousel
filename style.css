@@ -82,9 +82,9 @@ body {
 }
 .carousel-container .list .item .intro {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	transform: translateY(-50%);
-	width: 400px;
+	width: 50%;
 	opacity: 0;
 	pointer-events: none;
 }
