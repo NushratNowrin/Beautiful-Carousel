@@ -17,5 +17,6 @@ const showSlider = (type) => {
 	let items = document.querySelectorAll(".carousel-container .list .item");
 	if (type === "next") {
 		listHTML.appendChild(items[0]);
+		carousel.classList.add("next");
 	}
 };

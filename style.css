@@ -230,3 +230,16 @@ body {
 	background-color: #d4d4f8;
 	letter-spacing: 5px;
 }
+
+/* next click effect */
+.carousel-container .list .item:nth-child(1) {
+	animation: positionItem2 0.5s ease-in-out 1 forwards;
+}
+@keyframes positionItem2 {
+	from {
+		transform: var(--item2-transform);
+		filter: var(--item2-filter);
+		z-index: var(--item2-z-index);
+		opacity: var(--item2-opacity);
+	}
+}
