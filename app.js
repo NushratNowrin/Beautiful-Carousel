@@ -13,7 +13,10 @@ nextButton.onclick = function () {
 prevButton.onclick = function () {
 	showSlider("prev");
 };
+let unAcceptClick;
 const showSlider = (type) => {
+	nextButton.style.pointerEvents = "none";
+	prevButton.style.pointerEvents = "none";
 	carousel.classList.remove("prev", "next");
 	let items = document.querySelectorAll(".carousel-container .list .item");
 	if (type === "next") {
@@ -24,4 +27,10 @@ const showSlider = (type) => {
 		listHTML.prepend(items[positionLast]);
 		carousel.classList.add("prev");
 	}
+	// Time restart
+	clearTimeout(unAcceptClick);
+	unAcceptClick = setTimeout(() => {
+		nextButton.style.pointerEvents = "auto";
+		prevButton.style.pointerEvents = "auto";
+	}, 2000);
 };
