@@ -34,3 +34,10 @@ const showSlider = (type) => {
 		prevButton.style.pointerEvents = "auto";
 	}, 2000);
 };
+
+// See more button
+seeMoreButtons.forEach((button) => {
+	button.onclick = function () {
+		carousel.classList.add("showDetails");
+	};
+});
