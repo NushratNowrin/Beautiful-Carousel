@@ -18,5 +18,9 @@ const showSlider = (type) => {
 	if (type === "next") {
 		listHTML.appendChild(items[0]);
 		carousel.classList.add("next");
+	} else {
+		let positionLast = items.length - 1;
+		listHTML.prepend(items[positionLast]);
+		carousel.classList.add("prev");
 	}
 };
