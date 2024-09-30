@@ -243,3 +243,14 @@ body {
 		opacity: var(--item2-opacity);
 	}
 }
+.carousel-container.next .list .item:nth-child(2) {
+	animation: positionItem3 0.7s ease-in-out 1 forwards;
+}
+@keyframes positionItem3 {
+	from {
+		transform: var(--item3-transform);
+		filter: var(--item3-filter);
+		z-index: var(--item3-z-index);
+		opacity: var(--item3-opacity);
+	}
+}
