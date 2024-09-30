@@ -1,0 +1,8 @@
+@media only screen and (max-width: 900px) {
+	.carousel-container .list .item .intro .topic {
+		font-size: 1.25em;
+	}
+	.carousel-container .list .item .intro .title {
+		font-size: 1.5em;
+	}
+}
