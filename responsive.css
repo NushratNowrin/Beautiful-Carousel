@@ -2,7 +2,16 @@
 	.carousel-container .list .item .intro .topic {
 		font-size: 1.25em;
 	}
-	.carousel-container .list .item .intro .title {
+	.carousel-container .list .item .intro .title,
+	.carousel-container.showDetails .list .item:nth-child(2) .details .title {
 		font-size: 1.5em;
+	}
+	.carousel-container.showDetails .list .item:nth-child(2) .slider-img img {
+		right: 55%;
+		height: 50vh;
+		width: auto;
+	}
+	.carousel-container.showDetails .list .item:nth-child(2) .details {
+		transform: translateY(-30%);
 	}
 }

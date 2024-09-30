@@ -37,6 +37,7 @@ const showSlider = (type) => {
 
 // See more button
 seeMoreButtons.forEach((button) => {
+	carousel.classList.remove("showDetails");
 	button.onclick = function () {
 		carousel.classList.add("showDetails");
 	};
