@@ -313,10 +313,40 @@ body {
 .carousel-container.showDetails .list .item:nth-child(2) {
 	width: 100%;
 }
-.carousel-container .list .item:nth-child(2) .intro {
+/* .carousel-container .list .item:nth-child(2) .intro {
 	opacity: 0;
 	pointer-events: none;
+} */
+.carousel-container .list .item:nth-child(2) .slider-img img {
+	transition: right 0.5s;
 }
 .carousel-container.showDetails .list .item:nth-child(2) .slider-img img {
-	right: 50%;
+	right: 60%;
+	height: 60vh;
+	width: auto;
+}
+.carousel-container.showDetails .list .item:nth-child(2) .details {
+	opacity: 1;
+	pointer-events: auto;
+	width: 50%;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	top: 50%;
+	transform: translateY(-20%);
+}
+.carousel-container.showDetails .list .item:nth-child(2) .details {
+	overflow-y: scroll;
+}
+.carousel-container.showDetails .list .item:nth-child(2) .details .title {
+	font-size: 2em;
+	font-weight: bold;
+}
+.carousel-container.showDetails .list .item:nth-child(2) .details .description,
+.carousel-container.showDetails
+	.list
+	.item:nth-child(2)
+	.details
+	.specifications {
+	font-size: 0.8em;
 }
