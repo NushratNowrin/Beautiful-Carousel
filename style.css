@@ -40,6 +40,9 @@ body {
 	font-family: "Poppins", system-ui;
 	font-style: normal;
 }
+.logo {
+	cursor: pointer;
+}
 .menu-list-container a {
 	text-decoration: none;
 }
