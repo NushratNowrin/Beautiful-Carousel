@@ -448,3 +448,11 @@ body {
 	.description {
 	animation-delay: 1.2s;
 }
+.carousel-container.showDetails
+	.list
+	.item:nth-child(2)
+	.details
+	.title
+	.specifications {
+	animation-delay: 1.4s;
+}
