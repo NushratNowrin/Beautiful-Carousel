@@ -472,7 +472,7 @@ body {
 	filter: blur(200px);
 	top: 50%;
 	left: 50%;
-	transform: translate(-10%, -50%);
+	transform: translate(-10%, -40%);
 	transition: 1s;
 }
 .carousel-container.showDetails::before {
