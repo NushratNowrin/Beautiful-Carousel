@@ -43,5 +43,5 @@ seeMoreButtons.forEach((button) => {
 	};
 });
 backButton.onclick = function () {
-	carousel.classList.remove("showDetail");
+	carousel.classList.remove("showDetails");
 };
