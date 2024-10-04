@@ -449,4 +449,9 @@ body {
 	animation-delay: 1.6s;
 }
 
-/* hiding next and back button when show carousel */
+/* hiding next and prev button when show carousel */
+.carousel-container.carousel-container.showDetails #next,
+.carousel-container.carousel-container.showDetails #prev {
+	opacity: 0;
+	pointer-events: none;
+}
