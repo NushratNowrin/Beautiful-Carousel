@@ -448,3 +448,5 @@ body {
 .carousel-container.showDetails .list .item:nth-child(2) .details .checkout {
 	animation-delay: 1.6s;
 }
+
+/* hiding next and back button when show carousel */
