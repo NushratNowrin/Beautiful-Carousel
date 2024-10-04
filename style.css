@@ -469,9 +469,12 @@ body {
 	position: absolute;
 	z-index: -1;
 	border-radius: 20% 30% 80% 10%;
-	filter: blur(150px);
+	filter: blur(200px);
 	top: 50%;
 	left: 50%;
 	transform: translate(-10%, -50%);
 	transition: 1s;
+}
+.carousel-container.showDetails::before {
+	transform: translate(-100%, -50%) rotate(70deg);
 }
