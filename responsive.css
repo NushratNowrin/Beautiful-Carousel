@@ -50,16 +50,19 @@
 	}
 
 	.carousel-container.showDetails .list .item:nth-child(2) .slider-img img {
-		right: 80%;
-		height: 20vh;
+		right: 70%;
+		height: 10vh;
 		width: auto;
 	}
 	.carousel-container.showDetails .list .item:nth-child(2) .details {
-		width: 70%;
+		width: 60%;
 		top: 0;
 		transform: translateY(0);
 	}
 	.carousel-container.showDetails .list .item:nth-child(2) .details .title {
-		font-size: 1.2em;
+		font-size: 1em;
+	}
+	.carousel-container.showDetails .list .item:nth-child(2) .details{
+		font-size: 14px;
 	}
 }
