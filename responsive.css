@@ -62,7 +62,15 @@
 	.carousel-container.showDetails .list .item:nth-child(2) .details .title {
 		font-size: 1em;
 	}
-	.carousel-container.showDetails .list .item:nth-child(2) .details{
+	.carousel-container.showDetails .list .item:nth-child(2) .details {
 		font-size: 14px;
+	}
+	.carousel-container.showDetails
+		.list
+		.item:nth-child(2)
+		.details
+		.specifications,
+	.checkout {
+		font-size: 10px;
 	}
 }
