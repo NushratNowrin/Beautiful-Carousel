@@ -43,10 +43,11 @@ body {
 /* Header Styling */
 header {
 	width: 100%;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	z-index: 100;
 }
 .logo {
 	cursor: pointer;
